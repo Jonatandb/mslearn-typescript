@@ -38,12 +38,11 @@ console.log(a);
    Season.Fall, instead of the literal string "Fall". */
 var Season;
 (function (Season) {
-    Season[Season["Winter"] = 0] = "Winter";
-    Season[Season["Spring"] = 1] = "Spring";
-    Season[Season["Summer"] = 2] = "Summer";
-    Season[Season["Fall"] = 3] = "Fall";
+    Season[Season["Fall"] = 0] = "Fall";
+    Season[Season["Winter"] = 1] = "Winter";
+    Season[Season["Spring"] = 2] = "Spring";
+    Season[Season["Summer"] = 3] = "Summer";
 })(Season || (Season = {}));
-;
 function whichMonths(season) {
     let monthsInSeason;
     switch (season) {
@@ -61,7 +60,7 @@ function whichMonths(season) {
     }
     return monthsInSeason;
 }
-console.log(whichMonths(Season.Spring));
+console.log(whichMonths(Season.Fall));
 /* EXERCISE 4
    TODO: Declare the array as the type to match the type of the items in the array. */
 let randomNumbers = [];
