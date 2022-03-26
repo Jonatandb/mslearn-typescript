@@ -25,6 +25,11 @@ TypeScript ofrece todas las características de JavaScript, además de una capa 
 
 ---
 
+🥳🎉
+![Diploma Microsft Learn](Achievement_Screenshot.png?raw=true 'Microsoft Achievement screenshot')
+
+---
+
 ### Using the Lab start and end solution files
 
 You can use the TypeScript [Playground](https://www.typescriptlang.org/play), Visual Studio Code, or any TypeScript-compatible IDE to complete the labs in the ["Developing JavaScript applications using TypeScript"](https://docs.microsoft.com/es-es/learn/paths/build-javascript-applications-typescript/) learning path.
